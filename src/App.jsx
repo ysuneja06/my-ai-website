@@ -48,9 +48,14 @@ export default function AdvisoryWebsite() {
               enterprise-wide adoption.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg">
+              <a
+                href="https://calendly.com/yajuvinder-suneja/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg inline-block"
+                >
                 Schedule a Discussion
-              </button>
+              </a>
               <button className="border border-slate-400 px-6 py-3 rounded-2xl font-semibold">
                 Download Services Overview
               </button>
