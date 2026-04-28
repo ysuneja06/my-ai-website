@@ -42,7 +42,7 @@ export default function AdvisoryWebsite() {
           <div>
             {/* LOGO STYLE TEXT */}
             <p className="text-4xl tracking-[0.25em] font-semibold text-slate-200 mb-1">
-              asc<span className="text-sky-400 font-bold">AI</span>nd
+              asc<span className="text-sky-400 font-bold text-5xl relative top-0.5">AI</span>nd
             </p>
 
             <p className="uppercase tracking-[0.3em] text-sm text-slate-300 mb-4">
