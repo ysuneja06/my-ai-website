@@ -212,10 +212,10 @@ export default function AdvisoryWebsite() {
             Contact
           </p>
           <h2 className="text-4xl font-bold mb-6">
-            Let’s Discuss Your AI Transformation Journey
+            Let’s Discuss Your Transformation Journey
           </h2>
           <p className="text-slate-300 text-lg mb-8">
-            Available for advisory engagements, executive workshops, AI
+            Advisory engagements, executive workshops, AI
             readiness assessments, operating model design, and managed services
             transformation initiatives.
           </p>
