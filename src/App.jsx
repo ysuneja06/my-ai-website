@@ -1,24 +1,28 @@
 export default function AdvisoryWebsite() {
   const services = [
     {
-      title: "AI Readiness Assessment",
-      text: "Assess current AI maturity, prioritize use cases, identify governance gaps, and build a practical roadmap for adoption.",
+      title: "Enterprise Transformation Strategy",
+      text: "Define AI-first transformation vision, prioritize high-impact initiatives, and build a clear roadmap aligned to business outcomes.",
     },
     {
-      title: "AI Operating Model & Governance",
-      text: "Define governance structures, AI CoE models, KPIs, intake frameworks, funding approaches, and enterprise roles.",
+      title: "AI Strategy & Governance",
+      text: "Establish enterprise AI strategy, governance frameworks, risk controls, and operating models for scalable and responsible adoption.",
+    },
+    {
+      title: "Operating Model & Process Transformation",
+      text: "Redesign enterprise processes, standardize operations, and embed AI and automation into core business workflows.",
+    },
+    {
+      title: "AI & Automation Execution",
+      text: "Deliver end-to-end execution across AI, automation, copilots, and intelligent workflows to drive measurable outcomes.",
     },
     {
       title: "Managed Services Transformation",
-      text: "Modernize service desk, infrastructure, cloud, digital workplace, and enterprise operations through AI and automation.",
+      text: "Transform service desk, infrastructure, cloud, and enterprise operations into AI-first, scalable, and efficient delivery models.",
     },
     {
-      title: "Executive AI Strategy Advisory",
-      text: "Provide board-level and executive advisory support on AI strategy, operating models, vendors, investments, and roadmaps.",
-    },
-    {
-      title: "AI-First Service Operations",
-      text: "Redesign service operations with AI, automation, copilots, chatbots, agentic workflows, and digital labor models.",
+      title: "Executive Advisory",
+      text: "Provide board-level and CXO advisory on transformation strategy, investments, governance, and enterprise-wide execution.",
     },
   ];
 
@@ -37,25 +41,27 @@ export default function AdvisoryWebsite() {
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="uppercase tracking-[0.3em] text-sm text-slate-300 mb-4">
-              AI, Automation & Transformation Advisory
+              Enterprise Transformation
             </p>
             <h1 className="text-5xl font-bold leading-tight mb-6">
-              Helping Enterprises Scale AI with Confidence
+              Transforming Enterprises and Scaling AI with Confidence
             </h1>
             <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-              Supporting organizations in moving from fragmented AI pilots to
-              scalable operating models, measurable business outcomes, and
-              enterprise-wide adoption.
+              Driving enterprise transformation through AI-first strategy,
+              automation, and operating model excellence for measurable business
+              impact.
             </p>
+
             <div className="flex flex-wrap gap-4">
               <a
                 href="https://calendly.com/yajuvinder-suneja/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg inline-block"
-                >
+              >
                 Schedule a Discussion
               </a>
+
               <button className="border border-slate-400 px-6 py-3 rounded-2xl font-semibold">
                 Download Services Overview
               </button>
@@ -64,56 +70,60 @@ export default function AdvisoryWebsite() {
 
           <div className="grid grid-cols-2 gap-4">
             {[
-              "Enterprise AI Strategy",
-              "AI Governance",
-              "Managed Services Transformation",
+              "Enterprise Transformation Strategy",
+              "AI Strategy & Governance",
+              "Operating Model Transformation",
               "Executive Advisory",
             ].map((item) => (
-              <div
+              <a
                 key={item}
-                className="bg-slate-800 rounded-3xl p-6 shadow-xl"
+                href="#services"
+                className="bg-slate-800 rounded-3xl p-6 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all cursor-pointer block"
               >
                 <h3 className="font-semibold text-lg">{item}</h3>
-              </div>
+              </a>
             ))}
           </div>
         </div>
       </section>
 
       <section className="max-w-7xl mx-auto px-8 py-20">
-        <div className="text-center mb-14">
+        <div className="text-center mb-5">
           <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-3">
             About
           </p>
-          <h2 className="text-4xl font-bold mb-4">
-            Executive Advisory with Real Enterprise Experience
+
+          <h2 className="text-4xl font-bold mb-5">
+            Enterprise Impact at Scale
           </h2>
+
           <p className="max-w-4xl mx-auto text-lg text-slate-600 leading-relaxed">
-            Backed by 25+ years of experience across enterprise transformation,
-            AI strategy, automation, customer strategy, managed services, and
-            global operations. Trusted advisor to CXOs and boards across North
+            Enterprise transformation leadership spanning AI, automation, operational excellence, customer strategy & growth, enterprise enablement, and large-scale portfolio execution. Trusted advisor to CXOs and boards across North
             America, APAC, and EMEA.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-4 gap-6">
+        <div className="border-t border-slate-200 pt-3 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 text-center">
           {[
-            "25+ Years Experience",
-            "$1.6B Portfolio Exposure",
-            "Fortune 500 Experience",
-            "Global Delivery Leadership",
-          ].map((item) => (
-            <div
-              key={item}
-              className="bg-white rounded-3xl p-6 shadow-md border border-slate-200 text-center"
-            >
-              <p className="font-semibold">{item}</p>
+            ["25+", "Years Experience"],
+            ["$1.6B+", "Portfolio"],
+            ["100+", "Clients"],
+            ["$25M+", "Margin Impact"],
+            ["500+", "Global Cross-Functional Impact"],
+            ["Fortune 500", "Experience"],
+            ["Global", "Delivery Leadership"],
+          ].map(([value, label]) => (
+            <div key={`${value}-${label}`}>
+              <div className="text-2xl font-bold text-slate-900">{value}</div>
+              <div className="text-sm text-slate-500 mt-2 leading-snug">
+                {label}
+              </div>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="bg-white py-20 px-8">
+      <section id="services" className="bg-white py-20 px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-14 text-center">
             <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-3">
@@ -126,7 +136,7 @@ export default function AdvisoryWebsite() {
             {services.map((service) => (
               <div
                 key={service.title}
-                className="bg-slate-50 rounded-3xl p-8 shadow-md border border-slate-200"
+                className="bg-slate-50 rounded-3xl p-8 shadow-md border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer"
               >
                 <h3 className="text-2xl font-semibold mb-4">
                   {service.title}
@@ -201,12 +211,23 @@ export default function AdvisoryWebsite() {
             transformation initiatives.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <button className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg">
+            <a
+              href="https://calendly.com/yajuvinder-suneja/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg inline-block"
+            >
               Book an Introductory Call
-            </button>
-            <button className="border border-slate-500 px-6 py-3 rounded-2xl font-semibold">
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/yajuvinder"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-slate-500 px-6 py-3 rounded-2xl font-semibold inline-block"
+            >
               Connect on LinkedIn
-            </button>
+            </a>
           </div>
         </div>
       </section>
