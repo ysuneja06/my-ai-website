@@ -37,15 +37,22 @@ export default function AdvisoryWebsite() {
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800">
-      <section className="bg-slate-900 text-white px-8 py-20">
+      <section className="bg-slate-900 text-white px-8 py-10">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div>
+            {/* LOGO STYLE TEXT */}
+            <p className="text-4xl tracking-[0.25em] font-semibold text-slate-200 mb-1">
+              asc<span className="text-sky-400 font-bold">AI</span>nd
+            </p>
+
             <p className="uppercase tracking-[0.3em] text-sm text-slate-300 mb-4">
               Enterprise Transformation
             </p>
+
             <h1 className="text-5xl font-bold leading-tight mb-6">
               Transforming Enterprises and Scaling AI with Confidence
             </h1>
+
             <p className="text-lg text-slate-300 mb-8 leading-relaxed">
               Driving enterprise transformation through AI-first strategy,
               automation, and operating model excellence for measurable business
@@ -86,6 +93,8 @@ export default function AdvisoryWebsite() {
           </div>
         </div>
       </section>
+
+      {/* REST OF YOUR CODE UNCHANGED */}
 
       <section className="max-w-7xl mx-auto px-8 py-20">
         <div className="text-center mb-5">
