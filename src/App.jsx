@@ -41,19 +41,22 @@ export default function AdvisoryWebsite() {
         <div className="max-w-7xl mx-auto px-4 sm:px-8 py-3 flex items-center justify-between gap-3">
         <div className="shrink-0 leading-none">
   {/* Mobile logo */}
+        {/* Mobile logo */}
         <div className="w-[134px] max-w-[54vw] sm:hidden">
           <div className="flex items-end justify-between w-full">
-            <span className="text-2xl font-semibold text-slate-200">a</span>
-            <span className="text-2xl font-semibold text-slate-200">s</span>
-            <span className="text-2xl font-semibold text-slate-200">c</span>
-            <span className="text-sky-400 font-bold text-4xl leading-none">AI</span>
-            <span className="text-2xl font-semibold text-slate-200">n</span>
-            <span className="text-2xl font-semibold text-slate-200">d</span>
+            <span className="text-2xl font-semibold text-slate-200 leading-none">a</span>
+            <span className="text-2xl font-semibold text-slate-200 leading-none">s</span>
+            <span className="text-2xl font-semibold text-slate-200 leading-none">c</span>
+            <span className="text-sky-400 font-bold text-4xl leading-none relative -top-[2px]">
+              AI
+            </span>
+            <span className="text-2xl font-semibold text-slate-200 leading-none">n</span>
+            <span className="text-2xl font-semibold text-slate-200 leading-none">d</span>
           </div>
 
-          <div className="h-px bg-sky-400 mt-0.05 mb-1 w-full" />
+          <div className="h-px bg-sky-400 mt-[1px] mb-[3px] w-full" />
 
-          <p className="uppercase text-[7.5px] text-slate-300 tracking-[0.115em] whitespace-nowrap w-full text-center">
+          <p className="uppercase text-[7.5px] text-slate-300 tracking-[0.115em] whitespace-nowrap w-full text-center leading-none">
             Enterprise Transformation
           </p>
         </div>
