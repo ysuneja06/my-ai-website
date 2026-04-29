@@ -40,7 +40,7 @@ export default function AdvisoryWebsite() {
       <header className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-700/60">
         <div className="max-w-7xl mx-auto px-5 sm:px-8 py-4 flex items-center justify-between gap-4">
           <div className="inline-block">
-            <p className="text-3xl sm:text-4xl tracking-[0.22em] font-semibold text-slate-200 leading-none">
+            <p className="text-3xl sm:text-4xl tracking-[0.34em] font-semibold text-slate-200 leading-none">
               asc
               <span className="text-sky-400 font-bold text-4xl sm:text-5xl relative top-0.5">
                 AI
@@ -50,7 +50,7 @@ export default function AdvisoryWebsite() {
 
             <div className="h-px bg-sky-400 mt-2 mb-2 w-full" />
 
-            <p className="uppercase tracking-[0.34em] text-[10px] sm:text-xs text-slate-300">
+            <p className="uppercase tracking-[0.22em] text-[10px] sm:text-xs text-slate-300">
               Enterprise Transformation
             </p>
           </div>
