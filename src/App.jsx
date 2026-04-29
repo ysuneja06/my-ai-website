@@ -51,7 +51,7 @@ export default function AdvisoryWebsite() {
             <span className="text-2xl font-semibold text-slate-200">d</span>
           </div>
 
-          <div className="h-px bg-sky-400 mt-0.5 mb-1 w-full" />
+          <div className="h-px bg-sky-400 mt-0.1 mb-1 w-full" />
 
           <p className="uppercase text-[7.5px] text-slate-300 tracking-[0.115em] whitespace-nowrap w-full text-center">
             Enterprise Transformation
