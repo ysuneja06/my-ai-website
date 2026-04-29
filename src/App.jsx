@@ -39,21 +39,24 @@ export default function AdvisoryWebsite() {
     <div className="min-h-screen bg-slate-50 text-slate-800">
       <header className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-700/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 py-3 flex items-center justify-between gap-3">
-        <div className="inline-block leading-none shrink-0">
-        <p className="text-2xl sm:text-4xl tracking-[0.28em] sm:tracking-[0.435em] font-semibold text-slate-200 leading-none">
-          asc
-          <span className="text-sky-400 font-bold text-4xl sm:text-5xl relative top-0.5">
-            AI
-          </span>
-          nd
-        </p>
+        <div className="w-[300px] max-w-[54vw] sm:w-[300px] shrink-0 leading-none">
+          <div className="flex items-end justify-between w-full">
+            <span className="text-2xl sm:text-4xl font-semibold text-slate-200">a</span>
+            <span className="text-2xl sm:text-4xl font-semibold text-slate-200">s</span>
+            <span className="text-2xl sm:text-4xl font-semibold text-slate-200">c</span>
+            <span className="text-sky-400 font-bold text-4xl sm:text-5xl leading-none">
+              AI
+            </span>
+            <span className="text-2xl sm:text-4xl font-semibold text-slate-200">n</span>
+            <span className="text-2xl sm:text-4xl font-semibold text-slate-200">d</span>
+          </div>
 
-        <div className="h-px bg-sky-400 mt-2 mb-2 ml-0 w-[93%] sm:w-[94%]" />
+          <div className="h-px bg-sky-400 mt-2 mb-2 w-full" />
 
-        <p className="uppercase tracking-[0.12em] sm:tracking-[0.22em] text-[8px] sm:text-xs text-slate-300">
-          Enterprise Transformation
-        </p>
-      </div>
+          <p className="uppercase text-[8px] sm:text-xs text-slate-300 tracking-[0.105em] sm:tracking-[0.16em] whitespace-nowrap w-full text-center">
+            Enterprise Transformation
+          </p>
+        </div>
 
         <a
           href="https://calendly.com/yajuvinder-suneja/30min"
