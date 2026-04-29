@@ -42,7 +42,7 @@ export default function AdvisoryWebsite() {
         <div className="shrink-0 leading-none">
   {/* Mobile logo */}
         <div className="w-[134px] max-w-[54vw] sm:hidden">
-          <div className="flex items-end justify-between w-full">
+          <div className="flex items-baseline justify-between w-full">
             <span className="text-2xl font-semibold text-slate-200">a</span>
             <span className="text-2xl font-semibold text-slate-200">s</span>
             <span className="text-2xl font-semibold text-slate-200">c</span>
@@ -51,7 +51,7 @@ export default function AdvisoryWebsite() {
             <span className="text-2xl font-semibold text-slate-200">d</span>
           </div>
 
-          <div className="h-px bg-sky-400 mt-0.1 mb-1 w-full" />
+          <div className="h-px bg-sky-400 mt-[2px] mb-[4px] w-full" />
 
           <p className="uppercase text-[7.5px] text-slate-300 tracking-[0.115em] whitespace-nowrap w-full text-center">
             Enterprise Transformation
