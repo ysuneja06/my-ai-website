@@ -41,13 +41,12 @@ export default function AdvisoryWebsite() {
         <div className="max-w-7xl mx-auto px-4 sm:px-8 py-3 flex items-center justify-between gap-3">
         <div className="shrink-0 leading-none">
   {/* Mobile logo */}
-        {/* Mobile logo */}
-        <div className="w-[134px] max-w-[54vw] sm:hidden">
+          <div className="w-[134px] max-w-[54vw] sm:hidden">
           <div className="flex items-end justify-between w-full">
             <span className="text-2xl font-semibold text-slate-200 leading-none">a</span>
             <span className="text-2xl font-semibold text-slate-200 leading-none">s</span>
             <span className="text-2xl font-semibold text-slate-200 leading-none">c</span>
-            <span className="text-sky-400 font-bold text-4xl leading-none relative -top-[2px]">
+            <span className="text-sky-400 font-bold text-4xl leading-none relative top-[1px]">
               AI
             </span>
             <span className="text-2xl font-semibold text-slate-200 leading-none">n</span>
