@@ -39,24 +39,43 @@ export default function AdvisoryWebsite() {
     <div className="min-h-screen bg-slate-50 text-slate-800">
       <header className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-700/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 py-3 flex items-center justify-between gap-3">
-        <div className="w-[300px] max-w-[54vw] sm:w-[219px] shrink-0 leading-none">
+        <div className="shrink-0 leading-none">
+  {/* Mobile logo */}
+        <div className="w-[220px] max-w-[54vw] sm:hidden">
           <div className="flex items-end justify-between w-full">
-            <span className="text-2xl sm:text-4xl font-semibold text-slate-200">a</span>
-            <span className="text-2xl sm:text-4xl font-semibold text-slate-200">s</span>
-            <span className="text-2xl sm:text-4xl font-semibold text-slate-200">c</span>
-            <span className="text-sky-400 font-bold text-4xl sm:text-5xl leading-none">
-              AI
-            </span>
-            <span className="text-2xl sm:text-4xl font-semibold text-slate-200">n</span>
-            <span className="text-2xl sm:text-4xl font-semibold text-slate-200">d</span>
+            <span className="text-2xl font-semibold text-slate-200">a</span>
+            <span className="text-2xl font-semibold text-slate-200">s</span>
+            <span className="text-2xl font-semibold text-slate-200">c</span>
+            <span className="text-sky-400 font-bold text-4xl leading-none">AI</span>
+            <span className="text-2xl font-semibold text-slate-200">n</span>
+            <span className="text-2xl font-semibold text-slate-200">d</span>
+          </div>
+
+          <div className="h-px bg-sky-400 mt-1 mb-1 w-full" />
+
+          <p className="uppercase text-[7.5px] text-slate-300 tracking-[0.115em] whitespace-nowrap w-full text-center">
+            Enterprise Transformation
+          </p>
+        </div>
+
+        {/* Desktop logo */}
+        <div className="hidden sm:block w-[219px]">
+          <div className="flex items-end justify-between w-full">
+            <span className="text-4xl font-semibold text-slate-200">a</span>
+            <span className="text-4xl font-semibold text-slate-200">s</span>
+            <span className="text-4xl font-semibold text-slate-200">c</span>
+            <span className="text-sky-400 font-bold text-5xl leading-none">AI</span>
+            <span className="text-4xl font-semibold text-slate-200">n</span>
+            <span className="text-4xl font-semibold text-slate-200">d</span>
           </div>
 
           <div className="h-px bg-sky-400 mt-0.5 mb-0.5 w-full" />
 
-          <p className="uppercase text-[8px] sm:text-xs text-slate-300 tracking-[0.105em] sm:tracking-[0.16em] whitespace-nowrap w-full text-center">
+          <p className="uppercase text-xs text-slate-300 tracking-[0.16em] whitespace-nowrap w-full text-center">
             Enterprise Transformation
           </p>
         </div>
+      </div>
 
         <a
           href="https://calendly.com/yajuvinder-suneja/30min"
