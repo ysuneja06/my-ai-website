@@ -37,45 +37,73 @@ export default function AdvisoryWebsite() {
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800">
-      <section className="bg-slate-900 text-white px-8 py-10">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+      <header className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-700/60">
+        <div className="max-w-7xl mx-auto px-5 sm:px-8 py-4 flex items-center justify-between gap-4">
           <div>
-            {/* LOGO STYLE TEXT */}
-            <p className="text-4xl tracking-[0.25em] font-semibold text-slate-200 mb-1">
-              asc<span className="text-sky-400 font-bold text-5xl relative top-0.5">AI</span>nd
+            <p className="text-3xl sm:text-4xl tracking-[0.2em] sm:tracking-[0.25em] font-semibold text-slate-200 leading-none">
+              asc
+              <span className="text-sky-400 font-bold text-4xl sm:text-5xl relative top-0.5">
+                AI
+              </span>
+              nd
             </p>
 
-            <p className="uppercase tracking-[0.3em] text-sm text-slate-300 mb-4">
+            <p className="uppercase tracking-[0.24em] sm:tracking-[0.3em] text-xs sm:text-sm text-slate-300 mt-2">
               Enterprise Transformation
             </p>
+          </div>
 
-            <h1 className="text-5xl font-bold leading-tight mb-6">
+          <a
+            href="https://calendly.com/yajuvinder-suneja/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-slate-900 px-4 sm:px-6 py-2 sm:py-3 rounded-2xl font-semibold shadow-lg inline-block text-center text-sm sm:text-base whitespace-nowrap"
+          >
+            Schedule a Discussion
+          </a>
+        </div>
+      </header>
+
+      <section className="bg-slate-900 text-white px-5 sm:px-8 py-10 md:py-12">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+          <div>
+            <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-6">
               Transforming Enterprises and Scaling AI with Confidence
             </h1>
 
-            <p className="text-lg text-slate-300 mb-8 leading-relaxed">
+            <p className="text-base sm:text-lg text-slate-300 mb-8 leading-relaxed">
               Driving enterprise transformation through AI-first strategy,
               automation, and operating model excellence for measurable business
               impact.
             </p>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="https://calendly.com/yajuvinder-suneja/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg inline-block"
+                className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg inline-block text-center"
               >
                 Schedule a Discussion
               </a>
 
-              <button className="border border-slate-400 px-6 py-3 rounded-2xl font-semibold">
+              <button className="border border-slate-400 px-6 py-3 rounded-2xl font-semibold text-center">
                 Download Services Overview
               </button>
             </div>
+
+            <p className="text-sm text-slate-400 mt-4">
+              Or email directly at{" "}
+              <a
+                href="mailto:info@ascaind.com"
+                className="text-slate-200 underline hover:text-sky-400"
+              >
+                info@ascaind.com
+              </a>
+            </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
               "Enterprise Transformation Strategy",
               "AI Strategy & Governance",
@@ -85,34 +113,34 @@ export default function AdvisoryWebsite() {
               <a
                 key={item}
                 href="#services"
-                className="bg-slate-800 rounded-3xl p-6 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all cursor-pointer block"
+                className="bg-slate-800 rounded-3xl p-5 sm:p-6 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all cursor-pointer block"
               >
-                <h3 className="font-semibold text-lg">{item}</h3>
+                <h3 className="font-semibold text-base sm:text-lg">{item}</h3>
               </a>
             ))}
           </div>
         </div>
       </section>
 
-      {/* REST OF YOUR CODE UNCHANGED */}
-
-      <section className="max-w-7xl mx-auto px-8 py-20">
-        <div className="text-center mb-5">
-          <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-3">
+      <section className="max-w-7xl mx-auto px-5 sm:px-8 py-14 md:py-20">
+        <div className="text-center mb-8 md:mb-5">
+          <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-slate-500 mb-3">
             About
           </p>
 
-          <h2 className="text-4xl font-bold mb-5">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-5">
             Enterprise Impact at Scale
           </h2>
 
-          <p className="max-w-4xl mx-auto text-lg text-slate-600 leading-relaxed">
-            Enterprise transformation leadership spanning AI, automation, operational excellence, customer strategy & growth, enterprise enablement, and large-scale portfolio execution. Trusted advisor to CXOs and boards across North
-            America, APAC, and EMEA.
+          <p className="max-w-4xl mx-auto text-base sm:text-lg text-slate-600 leading-relaxed">
+            Enterprise transformation leadership spanning AI, automation,
+            operational excellence, customer strategy & growth, enterprise
+            enablement, and large-scale portfolio execution. Trusted advisor to
+            CXOs and boards across North America, APAC, and EMEA.
           </p>
         </div>
 
-        <div className="border-t border-slate-200 pt-3 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 text-center">
+        <div className="border-t border-slate-200 pt-8 md:pt-3 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-x-6 gap-y-8 text-center">
           {[
             ["25+", "Years Experience"],
             ["$1.6B+", "Portfolio"],
@@ -123,7 +151,9 @@ export default function AdvisoryWebsite() {
             ["Global", "Delivery Leadership"],
           ].map(([value, label]) => (
             <div key={`${value}-${label}`}>
-              <div className="text-2xl font-bold text-slate-900">{value}</div>
+              <div className="text-2xl md:text-2xl font-bold text-slate-900">
+                {value}
+              </div>
               <div className="text-sm text-slate-500 mt-2 leading-snug">
                 {label}
               </div>
@@ -132,25 +162,25 @@ export default function AdvisoryWebsite() {
         </div>
       </section>
 
-      <section id="services" className="bg-white py-20 px-8">
+      <section id="services" className="bg-white py-14 md:py-20 px-5 sm:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="mb-14 text-center">
-            <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-3">
+          <div className="mb-10 md:mb-14 text-center">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-slate-500 mb-3">
               Services
             </p>
-            <h2 className="text-4xl font-bold">Core Offerings</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold">Core Offerings</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
             {services.map((service) => (
               <div
                 key={service.title}
-                className="bg-slate-50 rounded-3xl p-8 shadow-md border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer"
+                className="bg-slate-50 rounded-3xl p-6 md:p-8 shadow-md border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer"
               >
-                <h3 className="text-2xl font-semibold mb-4">
+                <h3 className="text-xl md:text-2xl font-semibold mb-4">
                   {service.title}
                 </h3>
-                <p className="text-slate-600 leading-relaxed">
+                <p className="text-slate-600 text-base leading-relaxed">
                   {service.text}
                 </p>
               </div>
@@ -159,13 +189,13 @@ export default function AdvisoryWebsite() {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-8 py-20">
-        <div className="grid lg:grid-cols-2 gap-12">
-          <div className="bg-slate-900 text-white rounded-3xl p-10 shadow-xl">
-            <p className="text-sm uppercase tracking-[0.3em] text-slate-400 mb-3">
+      <section className="max-w-7xl mx-auto px-5 sm:px-8 py-14 md:py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+          <div className="bg-slate-900 text-white rounded-3xl p-6 md:p-10 shadow-xl">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-slate-400 mb-3">
               Who This Helps
             </p>
-            <h2 className="text-3xl font-bold mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 leading-tight">
               Ideal for Organizations That Need Clarity, Structure, and Momentum
             </h2>
             <div className="grid grid-cols-1 gap-4 text-slate-300">
@@ -179,7 +209,7 @@ export default function AdvisoryWebsite() {
               ].map((item) => (
                 <div
                   key={item}
-                  className="bg-slate-800 rounded-2xl px-5 py-4"
+                  className="bg-slate-800 rounded-2xl px-5 py-4 text-base leading-relaxed"
                 >
                   {item}
                 </div>
@@ -187,16 +217,18 @@ export default function AdvisoryWebsite() {
             </div>
           </div>
 
-          <div className="bg-white rounded-3xl p-10 shadow-md border border-slate-200">
-            <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-3">
+          <div className="bg-white rounded-3xl p-6 md:p-10 shadow-md border border-slate-200">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-slate-500 mb-3">
               Insights
             </p>
-            <h2 className="text-3xl font-bold mb-6">Thought Leadership</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Thought Leadership
+            </h2>
             <div className="space-y-4">
               {insights.map((item) => (
                 <div
                   key={item}
-                  className="border border-slate-200 rounded-2xl px-5 py-4 hover:shadow-sm"
+                  className="border border-slate-200 rounded-2xl px-5 py-4 hover:shadow-sm text-base leading-relaxed"
                 >
                   {item}
                 </div>
@@ -206,38 +238,39 @@ export default function AdvisoryWebsite() {
         </div>
       </section>
 
-      <section className="bg-slate-900 text-white py-20 px-8">
+      <section className="bg-slate-900 text-white py-14 md:py-20 px-5 sm:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm uppercase tracking-[0.3em] text-slate-400 mb-3">
+          <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-slate-400 mb-3">
             Contact
           </p>
-          <h2 className="text-4xl font-bold mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-6 leading-tight">
             Let’s Discuss Your Transformation Journey
           </h2>
-          <p className="text-slate-300 text-lg mb-8">
-            Advisory engagements, executive workshops, AI
-            readiness assessments, operating model design, and managed services
-            transformation initiatives.
+          <p className="text-slate-300 text-base sm:text-lg mb-8 leading-relaxed">
+            Advisory engagements, executive workshops, AI readiness assessments,
+            operating model design, and managed services transformation
+            initiatives.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex justify-center">
             <a
               href="https://calendly.com/yajuvinder-suneja/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg inline-block"
+              className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg inline-block text-center"
             >
               Book an Introductory Call
             </a>
-
-            <a
-              href="https://www.linkedin.com/in/yajuvinder"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-slate-500 px-6 py-3 rounded-2xl font-semibold inline-block"
-            >
-              Connect on LinkedIn
-            </a>
           </div>
+
+          <p className="text-sm text-slate-400 mt-5">
+            Prefer email?{" "}
+            <a
+              href="mailto:info@ascaind.com"
+              className="text-slate-200 underline hover:text-sky-400"
+            >
+              info@ascaind.com
+            </a>
+          </p>
         </div>
       </section>
     </div>
