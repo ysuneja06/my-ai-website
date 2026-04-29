@@ -40,20 +40,20 @@ export default function AdvisoryWebsite() {
       <header className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-700/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 py-3 flex items-center justify-between gap-3">
         <div className="inline-block leading-none shrink-0">
-          <p className="text-2xl sm:text-4xl tracking-[0.28em] sm:tracking-[0.435em] font-semibold text-slate-200 leading-none">
-            asc
-            <span className="text-sky-400 font-bold text-4xl sm:text-5xl relative top-0.5">
-              AI
-            </span>
-            nd
-          </p>
+        <p className="text-2xl sm:text-4xl tracking-[0.28em] sm:tracking-[0.435em] font-semibold text-slate-200 leading-none">
+          asc
+          <span className="text-sky-400 font-bold text-4xl sm:text-5xl relative top-0.5">
+            AI
+          </span>
+          nd
+        </p>
 
-          <div className="h-px bg-sky-400 mt-1.5 mb-1.5 ml-0 w-[82%] sm:w-[94%]" />
+        <div className="h-px bg-sky-400 mt-2 mb-2 ml-0 w-[93%] sm:w-[94%]" />
 
-          <p className="uppercase tracking-[0.105em] sm:tracking-[0.22em] text-[8px] sm:text-xs text-slate-300">
-            Enterprise Transformation
-          </p>
-        </div>
+        <p className="uppercase tracking-[0.12em] sm:tracking-[0.22em] text-[8px] sm:text-xs text-slate-300">
+          Enterprise Transformation
+        </p>
+      </div>
 
         <a
           href="https://calendly.com/yajuvinder-suneja/30min"
@@ -62,7 +62,7 @@ export default function AdvisoryWebsite() {
           className="bg-white text-slate-900 px-4 sm:px-6 py-2 sm:py-3 rounded-2xl font-semibold shadow-lg inline-block text-center text-xs sm:text-base whitespace-nowrap shrink-0"
         >
           <span className="sm:hidden">Let’s Talk</span>
-          <span className="hidden sm:inline">Schedule a Discussion</span>
+          <span className="hidden sm:inline">Let’s Talk</span>
         </a>
       </div>
       </header>
