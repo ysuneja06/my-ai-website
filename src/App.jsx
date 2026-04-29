@@ -39,8 +39,8 @@ export default function AdvisoryWebsite() {
     <div className="min-h-screen bg-slate-50 text-slate-800">
       <header className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-700/60">
         <div className="max-w-7xl mx-auto px-5 sm:px-8 py-4 flex items-center justify-between gap-4">
-          <div>
-            <p className="text-3xl sm:text-4xl tracking-[0.2em] sm:tracking-[0.25em] font-semibold text-slate-200 leading-none">
+          <div className="inline-block">
+            <p className="text-3xl sm:text-4xl tracking-[0.22em] font-semibold text-slate-200 leading-none">
               asc
               <span className="text-sky-400 font-bold text-4xl sm:text-5xl relative top-0.5">
                 AI
@@ -48,7 +48,9 @@ export default function AdvisoryWebsite() {
               nd
             </p>
 
-            <p className="uppercase tracking-[0.24em] sm:tracking-[0.3em] text-xs sm:text-sm text-slate-300 mt-2">
+            <div className="h-px bg-sky-400 mt-2 mb-2 w-full" />
+
+            <p className="uppercase tracking-[0.34em] text-[10px] sm:text-xs text-slate-300">
               Enterprise Transformation
             </p>
           </div>
@@ -163,7 +165,7 @@ export default function AdvisoryWebsite() {
       </section>
 
       <section
-       id="services"
+        id="services"
         className="bg-white py-14 md:py-20 px-5 sm:px-8 scroll-mt-24 md:scroll-mt-20"
       >
         <div className="max-w-7xl mx-auto">
@@ -254,7 +256,7 @@ export default function AdvisoryWebsite() {
             operating model design, and managed services transformation
             initiatives.
           </p>
-          <div className="flex justify-center">
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
               href="https://calendly.com/yajuvinder-suneja/30min"
               target="_blank"
@@ -262,6 +264,15 @@ export default function AdvisoryWebsite() {
               className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg inline-block text-center"
             >
               Book an Introductory Call
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/yajuvinder"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-slate-500 px-6 py-3 rounded-2xl font-semibold inline-block text-center hover:bg-white/10 transition"
+            >
+              Connect on LinkedIn
             </a>
           </div>
 
