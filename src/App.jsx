@@ -164,8 +164,8 @@ export default function AdvisoryWebsite() {
 
       <section
        id="services"
-        className="bg-white py-14 md:py-20 px-5 sm:px-8 scroll-mt-32 md:scroll-mt-28"
-        >
+        className="bg-white py-14 md:py-20 px-5 sm:px-8 scroll-mt-24 md:scroll-mt-20"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="mb-10 md:mb-14 text-center">
             <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-slate-500 mb-3">
