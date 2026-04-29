@@ -46,7 +46,7 @@ export default function AdvisoryWebsite() {
             <span className="text-2xl font-semibold text-slate-200 leading-none">a</span>
             <span className="text-2xl font-semibold text-slate-200 leading-none">s</span>
             <span className="text-2xl font-semibold text-slate-200 leading-none">c</span>
-            <span className="text-sky-400 font-bold text-4xl leading-none relative top-[1px]">
+            <span className="text-sky-400 font-bold text-4xl leading-none relative top-[2px]">
               AI
             </span>
             <span className="text-2xl font-semibold text-slate-200 leading-none">n</span>
