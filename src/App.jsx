@@ -42,7 +42,7 @@ export default function AdvisoryWebsite() {
         <div className="shrink-0 leading-none">
   {/* Mobile logo */}
         <div className="w-[134px] max-w-[54vw] sm:hidden">
-          <div className="flex items-end justify-between w-full leading-[0.8]">
+          <div className="flex items-end justify-between w-full leading-[0.1]">
             <span className="text-2xl font-semibold text-slate-200">a</span>
             <span className="text-2xl font-semibold text-slate-200">s</span>
             <span className="text-2xl font-semibold text-slate-200">c</span>
