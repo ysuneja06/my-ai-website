@@ -95,7 +95,7 @@ export default function AdvisoryWebsite() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
           <div>
             <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-6">
-              YAJU Transforming Enterprises and Scaling AI with Confidence
+              Transforming Enterprises and Scaling AI with Confidence
             </h1>
 
             <p className="text-base sm:text-lg text-slate-300 mb-8 leading-relaxed">
