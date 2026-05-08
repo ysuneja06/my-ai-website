@@ -179,7 +179,7 @@ export default function AdvisoryWebsite() {
             ["Global", "Delivery Leadership"],
           ].map(([value, label]) => (
             <div key={`${value}-${label}`}>
-              <div className="text-2xl md:text-2xl font-bold text-slate-900">
+            <div className="text-2xl md:text-2xl font-bold text-slate-900 whitespace-nowrap">
                 {value}
               </div>
               <div className="text-sm text-slate-500 mt-2 leading-snug">
