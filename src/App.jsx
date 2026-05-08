@@ -167,11 +167,12 @@ export default function AdvisoryWebsite() {
           </p>
         </div>
 
-        <div className="border-t border-slate-200 pt-8 md:pt-3 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-x-6 gap-y-8 text-center">
+        <div className="border-t border-slate-200 pt-8 md:pt-3 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-x-6 gap-y-8 text-center">
           {[
             ["25+", "Years Experience"],
             ["$1.6B+", "Portfolio"],
             ["100+", "Clients"],
+            ["$500M+", "Revenue Influence"],
             ["$25M+", "Margin Impact"],
             ["500+", "Global Cross-Functional Impact"],
             ["Fortune 500", "Experience"],
