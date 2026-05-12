@@ -80,7 +80,7 @@ export default function AdvisoryWebsite() {
       </div>
 
         <a
-          href="https://calendly.com/yajuvinder-suneja/30min"
+          href="https://calendly.com/ascAInd/30min"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white text-slate-900 px-4 sm:px-6 py-2 sm:py-3 rounded-2xl font-semibold shadow-lg inline-block text-center text-xs sm:text-base whitespace-nowrap shrink-0"
@@ -106,7 +106,7 @@ export default function AdvisoryWebsite() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://calendly.com/yajuvinder-suneja/30min"
+                href="https://calendly.com/ascAInd/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg inline-block text-center"
@@ -284,7 +284,7 @@ export default function AdvisoryWebsite() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="https://calendly.com/yajuvinder-suneja/30min"
+              href="https://calendly.com/ascAInd/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-slate-900 px-6 py-3 rounded-2xl font-semibold shadow-lg inline-block text-center"
