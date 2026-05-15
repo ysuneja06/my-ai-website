@@ -812,9 +812,13 @@ export default function AdvisoryWebsite() {
                 Schedule a Discussion
               </a>
 
-              <button className="border border-slate-400 px-6 py-3 rounded-2xl font-semibold text-center">
+              <a
+                href="/ascAInd-services-overview.pdf"
+                download
+                className="border border-slate-400 px-6 py-3 rounded-2xl font-semibold text-center inline-block hover:bg-white hover:text-slate-900 transition"
+              >
                 Download Services Overview
-              </button>
+              </a>
             </div>
 
             <p className="text-sm text-slate-400 mt-4">
