@@ -848,7 +848,7 @@ export default function AdvisoryWebsite() {
 
             <button
               onClick={openAgentFactory}
-              className="mt-5 w-full rounded-full bg-sky-500 px-6 py-4 text-base sm:text-lg text-slate-950 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:bg-sky-400"
+              className="mt-5 w-full cursor-pointer rounded-full bg-sky-500 px-6 py-4 text-base sm:text-lg text-slate-950 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:bg-sky-400"
             >
               <span className="font-bold">Live in Action:</span>{" "}
               Enterprise - AI-Agent - Factory
