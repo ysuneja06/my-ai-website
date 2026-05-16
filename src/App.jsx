@@ -28,12 +28,30 @@ export default function AdvisoryWebsite() {
   ];
 
   const insights = [
-    "Moving from AI Pilots to Enterprise Scale",
-    "Building an AI Center of Excellence",
-    "AI Governance in Practice",
-    "Managed Services Transformation with AI",
-    "Agentic AI and the Future of Operations",
-    "Measuring ROI from AI Investments",
+    {
+      title: "Moving from AI Pilots to Enterprise Scale",
+      url: "https://www.linkedin.com/pulse/moving-from-ai-pilots-enterprise-scale-ascaind-vrtvc",
+    },
+    {
+      title: "Building an AI Center of Excellence",
+      url: "https://www.linkedin.com/pulse/building-ai-center-excellence-ascaind-xzixc",
+    },
+    {
+      title: "AI Governance in Practice",
+      url: "https://www.linkedin.com/pulse/ai-governance-practice-ascaind-lewdc",
+    },
+    {
+      title: "Managed Services Transformation with AI",
+      url: "https://www.linkedin.com/pulse/managed-services-transformation-ai-ascaind-2sncc",
+    },
+    {
+      title: "Agentic AI and the Future of Operations",
+      url: "https://www.linkedin.com/pulse/agentic-ai-future-operations-ascaind-hvbxc",
+    },
+    {
+      title: "Measuring ROI from AI Investments",
+      url: "",
+    },
   ];
 
 
@@ -980,14 +998,29 @@ export default function AdvisoryWebsite() {
               Thought Leadership
             </h2>
             <div className="space-y-4">
-              {insights.map((item) => (
-                <div
-                  key={item}
-                  className="border border-slate-200 rounded-2xl px-5 py-4 hover:shadow-sm text-base leading-relaxed"
-                >
-                  {item}
-                </div>
-              ))}
+              {insights.map((item) =>
+                item.url ? (
+                  <a
+                    key={item.title}
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block cursor-pointer border border-slate-200 rounded-2xl px-5 py-4 hover:shadow-md hover:-translate-y-0.5 transition-all text-base leading-relaxed text-slate-800"
+                  >
+                    {item.title}
+                  </a>
+                ) : (
+                  <div
+                    key={item.title}
+                    className="border border-slate-200 rounded-2xl px-5 py-4 text-base leading-relaxed text-slate-500 bg-slate-50"
+                  >
+                    {item.title}{" "}
+                    <span className="text-xs uppercase tracking-[0.2em] ml-2">
+                      Coming Soon
+                    </span>
+                  </div>
+                )
+              )}
             </div>
           </div>
         </div>
