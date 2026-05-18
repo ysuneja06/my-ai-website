@@ -50,7 +50,7 @@ export default function AdvisoryWebsite() {
     },
     {
       title: "Measuring ROI from AI Investments",
-      url: "",
+      url: "https://www.linkedin.com/pulse/measuring-roi-from-ai-investments-ascaind-gcefc",
     },
   ];
 
